@@ -5,7 +5,7 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "npx parcel src/index.html",
-    "build": "parcel build src/index.html --public-url /hw-12-js4/",
+    "build": "parcel build src/index.html --public-url /hw-14-js4/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
