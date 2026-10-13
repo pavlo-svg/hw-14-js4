@@ -1,0 +1,2 @@
+let e=(e,a)=>new Promise(o=>{setTimeout(()=>{o(e)},a)});Promise.all([e("Apple",2e3),e("Banana",1e3),e("Orange",3e3),e("Grape",1500),e("Mango",2500)]).then(e=>{console.log(e)});let a=e=>{let a=Math.floor(4e3*Math.random())+1e3;return new Promise(o=>{setTimeout(()=>{o(e)},a)})};Promise.race([a("Apple"),a("Banana"),a("Orange"),a("Grape"),a("Mango")]).then(e=>{console.log(e)});
+//# sourceMappingURL=hw-14-js4.8c6fdafc.js.map
